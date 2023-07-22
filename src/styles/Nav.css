@@ -1,0 +1,35 @@
+#main-nav {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to right, #03228F, #0E73E4);
+
+}
+
+nav,
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-7);
+    text-transform: uppercase;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10vw;
+}
+
+.nv-left {
+    display: flex;
+    gap: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.nv-right {
+    display: flex;
+    gap: 7px;
+    font-size: 0.9rem;
+}
