@@ -31,6 +31,10 @@
         width: 100% !important;
     }
 
+    .tt {
+        font-size: 2rem !important;
+    }
+
     .hero-info h1 {
         font-weight: 700;
         font-size: 3.1rem !important;
@@ -56,7 +60,7 @@
     }
 
     .hero-info h3 {
-        font-size: 0.9rem;
+        font-size: 1.3rem !important;
         font-weight: 600;
     }
 
@@ -159,11 +163,13 @@
 @media only screen and (max-width: 768px) {
 
     /* ... */
-    .nv-left {
+    .nv-left,
+    .nv-right {
         display: none;
     }
 
     .ham {
+        font: 2rem !important;
         display: inline-block !important;
     }
 

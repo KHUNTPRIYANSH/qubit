@@ -10,13 +10,15 @@ const Nav = () => {
     <>
       <header id="main-nav">
         <nav>
+          <img src="/imgs/3.png" id="llg" alt="" />
+
           <MenuIcon className="ham" />
           <div className="nv-left">
-            <a href="/">home</a>
-            <a href="/">about</a>
-            <a href="/">services</a>
-            <a href="/">projects</a>
-            <a href="/">contact</a>
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#service">services</a>
+            <a href="#tec">projects</a>
+            <a href="#contact">contact</a>
           </div>
           <div className="nv-right">
             <a href="https://www.instagram.com/_qubit.tech/" target="_blank">

@@ -19,10 +19,10 @@ const Home = () => {
     <div>
       <Nav />
       <main>
-        <section className="hero">
+        <section id="home" className="hero">
           <div className="hero-info">
             <h3>
-              QUBIT <span className="text">IT SOLUTIONS</span>
+              QUBIT <span className="text">Technologies</span>
             </h3>
             <h1>transforming ideas into reality</h1>
             <h6>
@@ -31,7 +31,9 @@ const Home = () => {
               applications to top-notch IT consulting, we navigate the digital
               landscape with confidence.{" "}
             </h6>
-            <div className="btn">Learn More</div>
+            <a href="#about" className="btn">
+              Learn More
+            </a>
           </div>
           <img src="./imgs/h9-shape5.png" id="spin" alt="" />
           <img src="./imgs/ziz.png" id="ziz" alt="" />
@@ -40,7 +42,7 @@ const Home = () => {
             <img src="./imgs/h9-banner1.png" alt="" />
           </div>
         </section>
-        <section className="about">
+        <section id="about" className="about">
           <div className="ab-left">
             <img src="./imgs/h7-banner2.png" alt="" />
             <img src="./imgs/ziz.png" id="ziz" alt="" />
@@ -84,19 +86,23 @@ const Home = () => {
                 lead the way in software development, creating a seamlessly
                 connected world for businesses and individuals.
               </div>
-              <div className="btn">Contact Us</div>
+              <div className="btn" id="#ffftr">
+                Contact Us
+              </div>
             </div>
           </div>
           <img src="./imgs/h7-shape6.png" id="bounce" alt="" />
         </section>
-        <section className="service">
+        <section id="service" className="service">
           <div className="s-grid">
             <div className="s-t">
               <h2 className="blue">Our Services</h2>
               <h1 className="strong">One platform.</h1>
               <h1 className="light">Build quickly.</h1>
-              <div className="btn">Contact Now</div>
-            </div>{" "}
+              <div className="btn" id="#project">
+                Explore Projects
+              </div>
+            </div>
             <Tilt
               glareEnable={true}
               glareColor="#ebe7ee3f"
@@ -209,7 +215,7 @@ const Home = () => {
         {/* <section className="team">
           <Team />
         </section> */}
-        <section className="tec">
+        <section id="tec" className="tec">
           <div class="custom-shape-divider-bottom-1679121643">
             <svg
               id="sv"
@@ -264,10 +270,12 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section id="ffftr">
-          <Gal />
-          <Footer />
-        </section>
+        <div id="contact">
+          <section id="ffftr">
+            <Gal />
+            <Footer />
+          </section>
+        </div>
       </main>
     </div>
   );

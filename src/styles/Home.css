@@ -16,7 +16,7 @@
 
 .ham {
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem !important;
     cursor: pointer;
     display: none;
 }
@@ -467,4 +467,9 @@ section {
 #ffftr {
     min-height: 10vh !important;
     height: fit-content !important;
+}
+
+.btn {
+    text-decoration: none;
+    cursor: pointer;
 }

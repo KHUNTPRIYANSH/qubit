@@ -5,6 +5,12 @@
 
 }
 
+#llg {
+    height: 70px;
+    mix-blend-mode: lighten;
+    margin-top: -7px;
+}
+
 nav,
 nav a {
     text-decoration: none;
@@ -18,7 +24,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 10vw;
+    padding: 5px 10vw;
 }
 
 .nv-left {
@@ -26,6 +32,9 @@ nav {
     gap: 30px;
     font-weight: 500;
     font-size: 1rem;
+    flex: 1;
+    justify-content: flex-end;
+    margin-right: 75px;
 }
 
 .nv-right {
