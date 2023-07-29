@@ -33,3 +33,7 @@ nav {
     gap: 7px;
     font-size: 0.9rem;
 }
+
+.ham {
+    display: none !important;
+}

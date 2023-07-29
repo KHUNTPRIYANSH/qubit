@@ -9,31 +9,20 @@ const footer = () => {
   }
   return (
     <footer>
-      <div className="ftr1">
-        <div className="f1r">
-          <div className="logo">
-            <h1>C&F</h1>
-          </div>
-          <div className="loc">
-            Chaggan and Family, Rajkot, Gujarat, India -360004
-            <br /> +91 98765 54321
-          </div>
-          <div className="tm">
-            Every day: 9:00 – 22:00 <br /> Sat – Sun: 8:00 – 21:00
-          </div>
-        </div>
-        <div className="f1l">
-          <FacebookRoundedIcon />
-          <InstagramIcon />
-          <YouTubeIcon />
-        </div>
-      </div>
       <div className="ftr2">
         <input
           type="text"
           placeholder="Enter your email to get curated content from our trainers and nutrition experts to keep you feeling good…"
         />
-        <input type="submit" value="Sign Up" className="btn" />
+        <a
+          className="btn"
+          href="https://mail.google.com/mail/u/0/#inbox?compose=CrpPbDzHNDghcrCkVKTtJDrFcvRqPXDMLVMgSLPngxkRqLhmkNKlXpRjDGHRgxQHGfrFbSWxsFSvZVJKdWKg"
+          target="_blank"
+        >
+          Sign Up
+          {/* <AlternateEmailIcon /> */}
+        </a>
+        {/* <input type="submit" value="Sign Up" className="btn" /> */}
       </div>
       <div className="ftr3">
         <div className="links">
@@ -45,7 +34,7 @@ const footer = () => {
         </div>
         <div className="policy">
           <span>
-            Copyright © KPD &nbsp;&nbsp;&nbsp; Privacy Policy &nbsp;&nbsp;
+            Copyright © QUBIT &nbsp;&nbsp;&nbsp; Privacy Policy &nbsp;&nbsp;
             &nbsp; Terms & Conditions
           </span>
         </div>

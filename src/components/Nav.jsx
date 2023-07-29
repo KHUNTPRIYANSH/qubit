@@ -19,10 +19,17 @@ const Nav = () => {
             <a href="/">contact</a>
           </div>
           <div className="nv-right">
-            <InstagramIcon />
+            <a href="https://www.instagram.com/_qubit.tech/" target="_blank">
+              <InstagramIcon />
+            </a>
             <LinkedInIcon />
-            <AlternateEmailIcon />
-            <TwitterIcon />
+            <a
+              href="https://mail.google.com/mail/u/0/#inbox?compose=CrpPbDzHNDghcrCkVKTtJDrFcvRqPXDMLVMgSLPngxkRqLhmkNKlXpRjDGHRgxQHGfrFbSWxsFSvZVJKdWKg"
+              target="_blank"
+            >
+              <AlternateEmailIcon />
+            </a>
+            {/* <TwitterIcon /> */}
           </div>
         </nav>
       </header>

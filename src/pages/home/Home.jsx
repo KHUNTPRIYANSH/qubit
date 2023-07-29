@@ -21,11 +21,15 @@ const Home = () => {
       <main>
         <section className="hero">
           <div className="hero-info">
-            <h3>IT SOLUTIONS</h3>
-            <h1>IT Solutions Services For Your Business</h1>
+            <h3>
+              QUBIT <span className="text">IT SOLUTIONS</span>
+            </h3>
+            <h1>transforming ideas into reality</h1>
             <h6>
-              We are leading business startup consult providing company all over
-              the world doing over 40 years financial services
+              Where Innovation Meets Expertise. We craft cutting-edge software
+              solutions that drive real-world impact. From intuitive
+              applications to top-notch IT consulting, we navigate the digital
+              landscape with confidence.{" "}
             </h6>
             <div className="btn">Learn More</div>
           </div>
@@ -50,18 +54,35 @@ const Home = () => {
                 We Are Innovative IT Solutions & Services Company
               </div>
               <div className="text">
-                Nor is there anyone who loves or pursues or desires to obtain
-                pain of itself, because it is pain, but occasionally
-                circumstances occur in which toil and pain can procure him some
-                great pleasure.
+                A passionate team of tech enthusiasts, designers, and problem
+                solvers. We turn ideas into reality with bespoke solutions,
+                reflecting excellence and innovation. Join us on our journey to
+                shape the future through technology.
               </div>
               <div className="text">
-                Nor is there anyone who loves or pursues or desires to obtain
-                pain of itself, because it is pain, but occasionally
-                circumstances occur in which toil and pain can procure him some
-                great pleasure. pain of itself, because it is pain, but
-                occasionally circumstances occur in which toil and pain can
-                procure him some great pleasure.
+                <ul>
+                  <li>
+                    Revolutionizing industries through innovation and
+                    technology, leading the way in software development.
+                  </li>
+                  <li>
+                    Providing cutting-edge solutions and user-centric design for
+                    businesses and individuals.
+                  </li>
+                  <li>
+                    A passionate team of tech enthusiasts, designers, and
+                    problem solvers.
+                  </li>
+                  <li>
+                    Fostering a culture of excellence and positive social change
+                    through technology.
+                  </li>
+                </ul>
+              </div>
+              <div className="text">
+                Revolutionizing industries through innovation and technology. We
+                lead the way in software development, creating a seamlessly
+                connected world for businesses and individuals.
               </div>
               <div className="btn">Contact Us</div>
             </div>
@@ -236,6 +257,10 @@ const Home = () => {
             <div className="tec-f">
               <img className="dk" src="./imgs/t7.svg" alt="" />
               <img className="lt" src="./imgs/t7.svg" alt="" />
+            </div>
+            <div className="tec-f">
+              <img className="dk" src="./imgs/t9.png" alt="" />
+              <img className="lt" src="./imgs/t9.png" alt="" />
             </div>
           </div>
         </section>
